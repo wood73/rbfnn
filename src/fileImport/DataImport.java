@@ -30,6 +30,7 @@ public class DataImport
 		}
 		
 		fr.close();
+		br.close();
 	}
 	
 	public Vector<dataVals> sendData()
